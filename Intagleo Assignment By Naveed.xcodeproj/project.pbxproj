@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		037BE94D6247D61D01771DA7 /* Pods_Intagleo_Assignment_By_Naveed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7FEA516698D682A890E776A /* Pods_Intagleo_Assignment_By_Naveed.framework */; };
+		1DDA0E6525EBFC4C0036A305 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDA0E6425EBFC4C0036A305 /* AppDelegate.swift */; };
+		1DDA0E6725EBFC4C0036A305 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDA0E6625EBFC4C0036A305 /* SceneDelegate.swift */; };
+		1DDA0E6925EBFC4C0036A305 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDA0E6825EBFC4C0036A305 /* ViewController.swift */; };
+		1DDA0E6C25EBFC4C0036A305 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DDA0E6A25EBFC4C0036A305 /* Main.storyboard */; };
+		1DDA0E6E25EBFC510036A305 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DDA0E6D25EBFC510036A305 /* Assets.xcassets */; };
+		1DDA0E7125EBFC510036A305 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DDA0E6F25EBFC510036A305 /* LaunchScreen.storyboard */; };
+		1DDA0E7925EC04240036A305 /* PhotoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDA0E7825EC04240036A305 /* PhotoTableViewCell.swift */; };
+		1DDA0E7D25EC09FD0036A305 /* PhotosAPIResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDA0E7C25EC09FD0036A305 /* PhotosAPIResponseModel.swift */; };
+		1DDA0E7F25EC0CF90036A305 /* PhotosAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDA0E7E25EC0CF90036A305 /* PhotosAPIManager.swift */; };
+		1DDA0E8125EC0D1D0036A305 /* Extensions + Dependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDA0E8025EC0D1D0036A305 /* Extensions + Dependencies.swift */; };
+		1DDA0E8525EC18C00036A305 /* BaseAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDA0E8425EC18C00036A305 /* BaseAPIManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1DDA0E6125EBFC4C0036A305 /* Intagleo Assignment By Naveed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Intagleo Assignment By Naveed.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DDA0E6425EBFC4C0036A305 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1DDA0E6625EBFC4C0036A305 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1DDA0E6825EBFC4C0036A305 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1DDA0E6B25EBFC4C0036A305 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1DDA0E6D25EBFC510036A305 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1DDA0E7025EBFC510036A305 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1DDA0E7225EBFC510036A305 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DDA0E7825EC04240036A305 /* PhotoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTableViewCell.swift; sourceTree = "<group>"; };
+		1DDA0E7C25EC09FD0036A305 /* PhotosAPIResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosAPIResponseModel.swift; sourceTree = "<group>"; };
+		1DDA0E7E25EC0CF90036A305 /* PhotosAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosAPIManager.swift; sourceTree = "<group>"; };
+		1DDA0E8025EC0D1D0036A305 /* Extensions + Dependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions + Dependencies.swift"; sourceTree = "<group>"; };
+		1DDA0E8425EC18C00036A305 /* BaseAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAPIManager.swift; sourceTree = "<group>"; };
+		321AE689C7BB648FE83F441C /* Pods-Intagleo Assignment By Naveed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Intagleo Assignment By Naveed.release.xcconfig"; path = "Target Support Files/Pods-Intagleo Assignment By Naveed/Pods-Intagleo Assignment By Naveed.release.xcconfig"; sourceTree = "<group>"; };
+		A08B0884698ED5AF2C25AFE7 /* Pods-Intagleo Assignment By Naveed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Intagleo Assignment By Naveed.debug.xcconfig"; path = "Target Support Files/Pods-Intagleo Assignment By Naveed/Pods-Intagleo Assignment By Naveed.debug.xcconfig"; sourceTree = "<group>"; };
+		C7FEA516698D682A890E776A /* Pods_Intagleo_Assignment_By_Naveed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Intagleo_Assignment_By_Naveed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DDA0E5E25EBFC4C0036A305 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				037BE94D6247D61D01771DA7 /* Pods_Intagleo_Assignment_By_Naveed.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D23C72F25ECC0B1000E04B1 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				1DDA0E8025EC0D1D0036A305 /* Extensions + Dependencies.swift */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		1D23C73025ECC0C6000E04B1 /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				1DDA0E8425EC18C00036A305 /* BaseAPIManager.swift */,
+				1DDA0E7E25EC0CF90036A305 /* PhotosAPIManager.swift */,
+			);
+			path = APIManager;
+			sourceTree = "<group>";
+		};
+		1D23C73125ECC0D6000E04B1 /* ResponseModels */ = {
+			isa = PBXGroup;
+			children = (
+				1DDA0E7C25EC09FD0036A305 /* PhotosAPIResponseModel.swift */,
+			);
+			path = ResponseModels;
+			sourceTree = "<group>";
+		};
+		1D23C73225ECC0EE000E04B1 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1DDA0E7825EC04240036A305 /* PhotoTableViewCell.swift */,
+				1DDA0E6825EBFC4C0036A305 /* ViewController.swift */,
+				1DDA0E6A25EBFC4C0036A305 /* Main.storyboard */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1DDA0E5825EBFC4C0036A305 = {
+			isa = PBXGroup;
+			children = (
+				1DDA0E6325EBFC4C0036A305 /* Intagleo Assignment By Naveed */,
+				1DDA0E6225EBFC4C0036A305 /* Products */,
+				8DE5EC47E14C98FACB863F1B /* Pods */,
+				62B1B54C41BE99775C8C1EE3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1DDA0E6225EBFC4C0036A305 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DDA0E6125EBFC4C0036A305 /* Intagleo Assignment By Naveed.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DDA0E6325EBFC4C0036A305 /* Intagleo Assignment By Naveed */ = {
+			isa = PBXGroup;
+			children = (
+				1DDA0E6425EBFC4C0036A305 /* AppDelegate.swift */,
+				1DDA0E6625EBFC4C0036A305 /* SceneDelegate.swift */,
+				1D23C73225ECC0EE000E04B1 /* ViewController */,
+				1D23C73125ECC0D6000E04B1 /* ResponseModels */,
+				1D23C73025ECC0C6000E04B1 /* APIManager */,
+				1D23C72F25ECC0B1000E04B1 /* Commons */,
+				1DDA0E6D25EBFC510036A305 /* Assets.xcassets */,
+				1DDA0E6F25EBFC510036A305 /* LaunchScreen.storyboard */,
+				1DDA0E7225EBFC510036A305 /* Info.plist */,
+			);
+			path = "Intagleo Assignment By Naveed";
+			sourceTree = "<group>";
+		};
+		62B1B54C41BE99775C8C1EE3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7FEA516698D682A890E776A /* Pods_Intagleo_Assignment_By_Naveed.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8DE5EC47E14C98FACB863F1B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A08B0884698ED5AF2C25AFE7 /* Pods-Intagleo Assignment By Naveed.debug.xcconfig */,
+				321AE689C7BB648FE83F441C /* Pods-Intagleo Assignment By Naveed.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DDA0E6025EBFC4C0036A305 /* Intagleo Assignment By Naveed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DDA0E7525EBFC510036A305 /* Build configuration list for PBXNativeTarget "Intagleo Assignment By Naveed" */;
+			buildPhases = (
+				1D755488A04706880F543E56 /* [CP] Check Pods Manifest.lock */,
+				1DDA0E5D25EBFC4C0036A305 /* Sources */,
+				1DDA0E5E25EBFC4C0036A305 /* Frameworks */,
+				1DDA0E5F25EBFC4C0036A305 /* Resources */,
+				62B3C2828FCA0403D5A70DAA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Intagleo Assignment By Naveed";
+			productName = "Intagleo Assignment By Naveed";
+			productReference = 1DDA0E6125EBFC4C0036A305 /* Intagleo Assignment By Naveed.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DDA0E5925EBFC4C0036A305 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = Itagleo;
+				TargetAttributes = {
+					1DDA0E6025EBFC4C0036A305 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 1DDA0E5C25EBFC4C0036A305 /* Build configuration list for PBXProject "Intagleo Assignment By Naveed" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DDA0E5825EBFC4C0036A305;
+			productRefGroup = 1DDA0E6225EBFC4C0036A305 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DDA0E6025EBFC4C0036A305 /* Intagleo Assignment By Naveed */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DDA0E5F25EBFC4C0036A305 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DDA0E7125EBFC510036A305 /* LaunchScreen.storyboard in Resources */,
+				1DDA0E6E25EBFC510036A305 /* Assets.xcassets in Resources */,
+				1DDA0E6C25EBFC4C0036A305 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D755488A04706880F543E56 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Intagleo Assignment By Naveed-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62B3C2828FCA0403D5A70DAA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Intagleo Assignment By Naveed/Pods-Intagleo Assignment By Naveed-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Intagleo Assignment By Naveed/Pods-Intagleo Assignment By Naveed-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Intagleo Assignment By Naveed/Pods-Intagleo Assignment By Naveed-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DDA0E5D25EBFC4C0036A305 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DDA0E7D25EC09FD0036A305 /* PhotosAPIResponseModel.swift in Sources */,
+				1DDA0E7925EC04240036A305 /* PhotoTableViewCell.swift in Sources */,
+				1DDA0E6925EBFC4C0036A305 /* ViewController.swift in Sources */,
+				1DDA0E8125EC0D1D0036A305 /* Extensions + Dependencies.swift in Sources */,
+				1DDA0E7F25EC0CF90036A305 /* PhotosAPIManager.swift in Sources */,
+				1DDA0E6525EBFC4C0036A305 /* AppDelegate.swift in Sources */,
+				1DDA0E8525EC18C00036A305 /* BaseAPIManager.swift in Sources */,
+				1DDA0E6725EBFC4C0036A305 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1DDA0E6A25EBFC4C0036A305 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDA0E6B25EBFC4C0036A305 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1DDA0E6F25EBFC510036A305 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDA0E7025EBFC510036A305 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DDA0E7325EBFC510036A305 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1DDA0E7425EBFC510036A305 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DDA0E7625EBFC510036A305 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A08B0884698ED5AF2C25AFE7 /* Pods-Intagleo Assignment By Naveed.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 796CJQVDMA;
+				INFOPLIST_FILE = "Intagleo Assignment By Naveed/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.intagleo.Intagleo-Assignment-By-Naveed";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1DDA0E7725EBFC510036A305 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 321AE689C7BB648FE83F441C /* Pods-Intagleo Assignment By Naveed.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 796CJQVDMA;
+				INFOPLIST_FILE = "Intagleo Assignment By Naveed/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.intagleo.Intagleo-Assignment-By-Naveed";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DDA0E5C25EBFC4C0036A305 /* Build configuration list for PBXProject "Intagleo Assignment By Naveed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DDA0E7325EBFC510036A305 /* Debug */,
+				1DDA0E7425EBFC510036A305 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DDA0E7525EBFC510036A305 /* Build configuration list for PBXNativeTarget "Intagleo Assignment By Naveed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DDA0E7625EBFC510036A305 /* Debug */,
+				1DDA0E7725EBFC510036A305 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1DDA0E5925EBFC4C0036A305 /* Project object */;
+}

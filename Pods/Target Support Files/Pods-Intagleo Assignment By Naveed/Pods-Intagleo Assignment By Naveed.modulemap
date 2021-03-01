@@ -1,0 +1,6 @@
+framework module Pods_Intagleo_Assignment_By_Naveed {
+  umbrella header "Pods-Intagleo Assignment By Naveed-umbrella.h"
+
+  export *
+  module * { export * }
+}
